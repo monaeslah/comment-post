@@ -1,0 +1,11 @@
+@import "variable";
+@import "mixin";
+
+@import "../persianFont/iransans/css/fontiran.css";
+@import "./public";
+@import "./404";
+@import "./publicComponents";
+
+
+/*------------------------------------------------table*/
+@import "./table";

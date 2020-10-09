@@ -1,0 +1,204 @@
+.submit-btn-border {
+  color: $MainColor;
+  display: block;
+  background-color: #fff;
+  width: 100%;
+  border-radius: $border-radius-5;
+  padding: .85rem 0;
+  text-align: center;
+  border: 1px solid $MainColor;
+  @include transition(all .3s);
+
+  &:hover {
+    color: #fff;
+    border: 1px solid $MainColor;
+    background: $MainColor;
+    @include transition(all .3s);
+  }
+}
+
+.submit-btn {
+  color: #fff;
+  display: block;
+  background: $MainColor;
+  border: 1px solid $MainColor;
+  width: 100%;
+  border-radius: $border-radius-5;
+  padding: .85rem 0;
+  text-align: center;
+  @include transition(all .3s);
+
+  &:hover {
+    color: #fff;
+    background: $MainColor;
+    border: 1px solid $MainColor;
+  }
+}
+
+.submit-btn-silver {
+  background: $silver;
+  display: block;
+  color: #fff;
+  width: 100%;
+  border-radius: $border-radius-5;
+  padding: .85rem 0;
+  text-align: center;
+  @include transition(all .3s);
+  cursor: not-allowed;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.submit-btn-silver-border {
+  background: #fff;
+  display: block;
+  color: $silver;
+  width: 100%;
+  border-radius: $border-radius-5;
+  padding: .85rem 0;
+  text-align: center;
+  @include transition(all .3s);
+  cursor: not-allowed;
+  border: 1px solid $silver;
+
+  &:hover {
+    color: #858585;
+    border: 1px solid #858585;
+  }
+}
+
+.submit-btn-red {
+  color: #fff;
+  display: block;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, #ff090f47 0%, #ff4040 100%);
+  width: 100%;
+  border-radius: $border-radius-5;
+  padding: .85rem 0;
+  text-align: center;
+  @include transition(all .3s);
+
+  &:hover {
+    color: #fff;
+    background: linear-gradient(90deg, #ff090f47 0%, red 0%);
+  }
+}
+
+.submit-btn-blue-border {
+  color: #21a7da;
+  display: block;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 100px;
+  padding: .85rem 0;
+  text-align: center;
+  border: 1px solid #21a7da;
+  @include transition(all .3s);
+
+  &:hover {
+    color: #fff;
+    border: 1px solid #21a7da;
+    background: #21a7da;
+    @include transition(all .3s);
+  }
+}
+
+.submit-btn-blue {
+  color: #fff;
+  display: block;
+  background-color: #21a7da;
+  width: 100%;
+  border-radius: $border-radius-5;
+  padding: .85rem 0;
+  text-align: center;
+  @include transition(all .3s);
+
+  &:hover {
+    color: #fff;
+    background-color: #1d91bd;
+  }
+}
+
+.submit-btn-green-border {
+  color: #09964f;
+  display: block;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 100px;
+  padding: .85rem 0;
+  text-align: center;
+  border: 1px solid #09964f;
+  @include transition(all .3s);
+
+  &:hover {
+    color: #fff;
+    border: 1px solid #68ef91;
+    background: #68ef91;
+    @include transition(all .3s);
+  }
+}
+
+
+.submit-btn-green {
+  color: #fff;
+  display: block;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, #09964f 0%, #68ef91 100%);
+  width: 100%;
+  border-radius: $border-radius-5;
+  padding: .85rem 0;
+  text-align: center;
+  @include transition(all .3s);
+
+  &:hover {
+    color: #fff;
+    background: linear-gradient(90deg, #09964f 0%, #68ef91 0%);
+    @include transition(all .3s);
+  }
+}
+
+.timer {
+  color: $colorBlack;
+  min-width: 50px;
+  display: inline-block;
+}
+
+.img-right {
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+
+.icon-message {
+  width: 30px;
+  height: 30px;
+  background-color: $MainColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.caption-dark-bold {
+  color: $colorBlack;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.or{
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  &:before{
+    content: '';
+    position: absolute;
+    top:50%;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #d8d8d8;
+  }
+}
+
